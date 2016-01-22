@@ -14,7 +14,7 @@
 }
 
 body{
-	min-width: 400px;
+	/*min-width: 400px;*/
 }
 
 .hide-on-med-and-down{
@@ -355,6 +355,18 @@ padding-bottom: 1px;
 
 .speaker-1,.speaker-2{
 	margin-left: 10% !important;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+
+.speaker-1,.speaker-2{
+	margin-left: 5% !important;
+}
+
+.head-1{
+	font-size: 36px !important;
 }
 
 }
